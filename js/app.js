@@ -57,7 +57,7 @@ function initializeClock(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
-var deadline = "dec 22 2022 00:00:00 GMT+0300";
+var deadline = "dec 22 2023 00:00:00 GMT+0300";
 //‘Sun, 15 Mar 2020 00:00:00 GMT’  формат для firefox
 //var deadline = new Date(Date.parse(new Date()) + 1 * 1 * 1 * 10 * 1000); // for endless timer
 
